@@ -1,0 +1,36 @@
+# Enforce LF line endings for all text files
+* text=auto eol=lf
+
+# YAML files (GitHub Actions workflows, configs)
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# JavaScript / TypeScript source files
+*.js text eol=lf
+*.ts text eol=lf
+
+# JSON files (configs, Playwright settings)
+*.json text eol=lf
+
+# Markdown files (docs, README)
+*.md text eol=lf
+
+# HTML/CSS files (test fixtures, reports)
+*.html text eol=lf
+*.css text eol=lf
+
+# Shell scripts
+*.sh text eol=lf
+
+# Batch scripts (Windows-specific, keep CRLF)
+*.bat text eol=crlf
+
+# Binary files (no line ending conversion)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.mp4 binary
+*.zip binary
+*.exe binary
+*.dll binary

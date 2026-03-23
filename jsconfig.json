@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",        // project root is the base
+    "paths": {
+      "utils/*": ["utils/*"]  // map "utils" to the utils folder
+    }
+  }
+}
